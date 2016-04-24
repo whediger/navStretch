@@ -1,0 +1,17 @@
+nav {
+
+  height:40px;
+  width:100%;
+  background-color: darkblue;
+  font-family: sans-serif;
+}
+
+nav a {
+  display: inline-block;
+  vertical-align: middle;
+  color: lightgrey;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px;
+
+}
