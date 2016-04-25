@@ -22,11 +22,15 @@ nav div {
   padding: 10px;
 }
 
-.dropDown {
+.dropDown, .dropDown2 {
   position: relative;
   display: inline-block;
   text-decoration: underline;
   color: lightgrey;
+}
+
+.dropDown2 {
+  color: black;
 }
 
 .dropDown-content {
@@ -37,7 +41,24 @@ nav div {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+.dropDown-content a {
+  color: black;
+}
+
 .dropDown:hover .dropDown-content {
+      display: block;
+      cursor:pointer;
+}
+
+.dropDown2-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropDown2:hover .dropDown2-content {
       display: block;
       cursor:pointer;
 }
