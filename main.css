@@ -14,9 +14,19 @@ nav a {
   padding: 10px;
 }
 
+nav div {
+  display: inline-block;
+  vertical-align: middle;
+  color: lightgrey;
+  margin-left: 10px;
+  padding: 10px;
+}
+
 .dropDown {
   position: relative;
   display: inline-block;
+  text-decoration: underline;
+  color: lightgrey;
 }
 
 .dropDown-content {
@@ -29,4 +39,5 @@ nav a {
 
 .dropDown:hover .dropDown-content {
       display: block;
+      cursor:pointer;
 }
